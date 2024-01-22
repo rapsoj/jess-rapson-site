@@ -13,19 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-lang: en-US
-title: Basically Basic
-email: dugan.nash@mailinator.com
-description: "Your new default Jekyll theme"
-baseurl: "/example"  # the subpath of your site, e.g. /blog
+lang: en-UK
+title: Jess Rapson
+email: jessicakristenr@gmail.com
+description: "A place to store my projects and publications"
+baseurl: ""  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
-  name: Dugan Nash
-  twitter: Towlette_Pettetucci
+  name: Jess Rapson
   picture: /assets/images/johndoe.png
-twitter_username: Towlette_Pettetucci
-github_username: Towlette_Pettetucci
-logo: /assets/icons/basically-basic-logo-light.svg
+github_username: rapsoj
+logo: /assets/icons/mu.png
 search: true
 search_full_content: true
 search_provider: algolia
