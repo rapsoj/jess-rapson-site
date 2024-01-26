@@ -46,7 +46,6 @@ google_fonts:
 
 navigation_pages:
   - projects.md
-  - learning.md
-  - life.md
-  - mentions.md
-  - contact.md
+#  - learning.md
+#  - life.md
+#  - mentions.md

@@ -16,12 +16,12 @@
 lang: en-UK
 title: Jess Rapson
 email: jessicakristenr@gmail.com
-description: "A place to store my projects and publications"
+#description: "A place to store my projects and publications"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Jess Rapson
-  picture: /assets/images/johndoe.png
+  picture: /assets/images/headshot.png
 github_username: rapsoj
 logo: /assets/icons/mu.png
 search: true
@@ -78,11 +78,11 @@ defaults:
       type: posts
     values:
       layout: post
-      read_time: true
+      read_time: false
   # _recipes
   - scope:
       path: "_recipes"
       type: recipes
     values:
       layout: post
-      read_time: true
+      read_time: false
