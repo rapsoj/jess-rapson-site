@@ -29,7 +29,7 @@ This article walks through the creation of such a forecast using machine learnin
 
 # Where does transit ridership data come from?
 
- **Public Transit Ridership** The number of passengers using public transportation.
+ **Public Transit Ridership**: The number of passengers using public transportation.
 {: .notice} 
 
 In order to understand the impacts of various pandemic-related factors on transit ridership, detailed public transit ridership data is needed. Changes in transit ridership can be difficult to ascertain at a granular level as most agencies only publish ridership figures at the monthly or yearly level. Data from third party sources, such as [Google's COVID-19 Community Mobility Reports](https://www.google.com/covid19/mobility/), can be used to fill these data gaps. 
@@ -50,26 +50,26 @@ The following variables are included in the model:
 
 | Variable Name               | Definition                                                            |
 |-----------------------------|-----------------------------------------------------------------------|
-| <q>transit_demand</q>       | Change in visitors to transit stations compared to before the pandemic|
-| <q>metric_initial_drop</q>  | Average drop in <q>transit_demand</q> in the first month of pandemic  |
-| <q>lagged_month_average</q> | Average <q>transit_demand</q> in the previous calendar month          |
-| <q>past_average_month</q>   | Cumulative average <q>transit_demand</q> until the current month start|
-| <q>days_since_pandemic</q>  | Number of days since the pandemic began                               |
-| <q>cases_total</q>          | Cumulative rate of COVID-19 cases since the pandemic began            |
-| <q>work_from_home</q>       | Change in visitors to work places compared to before the pandemic     |
-| <q>policy_parks</q>         | Whether or not the city had closed off public parks                   |
-| <q>policy_emergency</q>     | Whether or not the city had a state of emergency declared             |
-| <q>policy_border</q>        | Whether or not the country had a major border closure                 |
-| <q>policy_gathering_low</q> | Whether or not the city had prohibited indoor gatherings of 50-1,000  |
-| <q>policy_gathering_med</q> | Whether or not the city had prohibited indoor gatherings of 5-49      |
-| <q>policy_gathering_hig</q> | Whether or not the city had prohibited indoor gatherings more than 5  |
-| <q>emergency_length</q>     | Number of days a state of emergency was in effect                      |
-| <q>gathering_low_length</q> | Number of days indoor gathering restrictions (50-1,000) were in effect|
-| <q>gathering_med_length</q> | Number of days indoor gathering restrictions (5-49) were in effect    |
-| <q>gathering_hig_length</q> | Number of days indoor gathering restrictions (<5) were in effect      |
-| <q>lockdown_total</q>       | Total number of days indoor gatherings were prohibited during pandemic|
+| `transit_demand`       | Change in visitors to transit stations compared to before the pandemic|
+| `metric_initial_drop`  | Average drop in `transit_demand` in the first month of pandemic  |
+| `lagged_month_average` | Average `transit_demand` in the previous calendar month          |
+| `past_average_month`   | Cumulative average `transit_demand` until the current month start|
+| `days_since_pandemic`  | Number of days since the pandemic began                               |
+| `cases_total`          | Cumulative rate of COVID-19 cases since the pandemic began            |
+| `work_from_home`       | Change in visitors to work places compared to before the pandemic     |
+| `policy_parks`         | Whether or not the city had closed off public parks                   |
+| `policy_emergency`     | Whether or not the city had a state of emergency declared             |
+| `policy_border`        | Whether or not the country had a major border closure                 |
+| `policy_gathering_low` | Whether or not the city had prohibited indoor gatherings of 50-1,000  |
+| `policy_gathering_med` | Whether or not the city had prohibited indoor gatherings of 5-49      |
+| `policy_gathering_hig` | Whether or not the city had prohibited indoor gatherings more than 5  |
+| `emergency_length`     | Number of days a state of emergency was in effect                      |
+| `gathering_low_length` | Number of days indoor gathering restrictions (50-1,000) were in effect|
+| `gathering_med_length` | Number of days indoor gathering restrictions (5-49) were in effect    |
+| `gathering_hig_length` | Number of days indoor gathering restrictions (<5) were in effect      |
+| `lockdown_total`       | Total number of days indoor gatherings were prohibited during pandemic|
 
-Where <q>transit_demand</q> is the variable that is targeted for prediction and the other variables are the predictors.
+Where `transit_demand` is the variable that is targeted for prediction and the other variables are the predictors.
 
 To forecast public transit ridership using these predictors, a [Random Forest regression](https://levelup.gitconnected.com/random-forest-regression-209c0f354c84) model was trained using the available sample data. The final model explains 99.77% of the variance in public transit ridership during the pandemic.
 
