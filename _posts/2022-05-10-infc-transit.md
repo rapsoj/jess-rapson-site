@@ -22,11 +22,11 @@ As cities recover from the COVID-19 pandemic, there is a pressing need for fare-
 
 # Project Overview
 
-| *Motivation* | There is a pressing need for fare-dependent transit agencies to have access to a reliable forecast of post-pandemic ridership recovery |
-| *Model* | A machine learning-based forecast of post-pandemic transit demand in major cities |
-| *Client* | Infrastructure Canada (INFC) |
-| *Status* | Complete |
-| *Outcome* | Presented results to the Deputy Minister and supported \$14.9 billion in [Federal permanent public transit funding](https://www.infrastructure.gc.ca/transit-transport/index-eng.html) |
+| **Motivation** | There is a pressing need for fare-dependent transit agencies to have access to a reliable forecast of post-pandemic ridership recovery |
+| **Model** | A machine learning-based forecast of post-pandemic transit demand in major cities |
+| **Client** | Infrastructure Canada (INFC) |
+| **Status** | Complete |
+| **Outcome** | Presented results to the Deputy Minister and supported \$14.9 billion in [Federal permanent public transit funding](https://www.infrastructure.gc.ca/transit-transport/index-eng.html) |
 
 The COVID-19 pandemic has significantly affected public transit operations worldwide, with agencies experiencing up to [90% drops in ridership](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0242476) during initial lockdowns. Since then, ridership has remained substantially below pre-pandemic levels in most cities.
 

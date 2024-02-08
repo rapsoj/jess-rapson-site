@@ -32,11 +32,11 @@ During its almost 50-year existence, [the G7 has served as an international foru
 
 # Project Overview
 
-| *Motivation* |  Fewer than two thirds of commitments made by leaders at past G7 and G20 summits have been met in full |
-| *Model* | An interactive machine learning-based tool that predicts the probability that each member nation will meet a given summit commitment |
-| *Client* | G7 and G20 Research Groups |
-| *Status* | Complete |
-| *Outcome* | Shared results with G20 Sherpas and presented work at the G20 Delhi Summit |
+| **Motivation** |  Fewer than two thirds of commitments made by leaders at past G7 and G20 summits have been met in full |
+| **Model** | An interactive machine learning-based tool that predicts the probability that each member nation will meet a given summit commitment |
+| **Client** | G7 and G20 Research Groups |
+| **Status** | Complete |
+| **Outcome** | Shared results with G20 Sherpas and presented work at the G20 Delhi Summit |
 
 For the first time, data on commitment outcomes collected by the G7 Research Group has made it possible to produce data-driven estimates of the probability that each member nation will fulfill commitments made at G7 summits.
 
