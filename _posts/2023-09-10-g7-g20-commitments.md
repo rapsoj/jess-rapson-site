@@ -28,7 +28,7 @@ tags:
 last_modified_at: 2024-02-08
 ---
 
-Data collected by the G7 and G20 Research Groups has made it possible to produce data-driven estimates of the probability that each member nation will meet their summit commitments. I developed this predictive model to enable Sherpas to better allocate resources, making the G7 and G20 more effective.
+Data collected by the G7 and G20 Research Groups has made it possible to produce data-driven estimates of the probability that each member nation will meet their summit commitments. I developed this predictive model to enable Sherpas to better allocate resources towards at-risk commitments, thus making the G7 and G20 more effective.
 
 # Project Overview
 
@@ -72,9 +72,9 @@ Finally, compliance probability varied by the commitment’s area of focus. Comp
 
 # What are the caveats of this approach? 
 
-Despite the many significant variables that were found, the overall explanatory power of the model is very low. Even when all summit characteristics, member nation properties, and commitment features are considered together, only 7.3\% of the variance in G7 compliance could be explained (McFadden’s pseudo R2). This suggests that the majority of G7 compliance may be determined by unknown factors or may be simply random.
+Despite the many significant variables that were found, the overall explanatory power of the model is very low. Even when all summit characteristics, member nation properties, and commitment features are considered together, only 7.3&#37; of the variance in G7 compliance could be explained (McFadden’s pseudo R2). This suggests that the majority of G7 compliance may be determined by unknown factors or may be simply random.
 
-Nonetheless, there is hope for increasing G7 effectiveness. All the significant variables examined can be combined into a model to predict future compliance. The binomial logistic regression model can predict compliance in a holdout set with 67\% accuracy, while a random forest classifier model trained on the same data is able to predict compliance with 70% accuracy. Though not perfect, this second model performs much better than chance, enabling potential compliance issues to be detected with the simulation tool as soon as commitments are made so that resources can be directed accordingly. 
+Nonetheless, there is hope for increasing G7 effectiveness. All the significant variables examined can be combined into a model to predict future compliance. The binomial logistic regression model can predict compliance in a holdout set with 67&#37; accuracy, while a random forest classifier model trained on the same data is able to predict compliance with 70&#37; accuracy. Though not perfect, this second model performs much better than chance, enabling potential compliance issues to be detected with the simulation tool as soon as commitments are made so that resources can be directed accordingly. 
 
 Increasing G7 effectiveness by leveraging patterns associated with higher probabilities of compliance is extremely difficult, as most performance is likely determined by factors outside the control of the organization. However, by using available data to predict future compliance, it may be possible to direct resources to assist member nations at higher risk of failing to meet their obligations — thus improving the overall ability of the G7 to achieve its goals.
 
