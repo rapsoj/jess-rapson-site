@@ -28,7 +28,7 @@ tags:
 last_modified_at: 2024-02-08
 ---
 
-During its almost 50-year existence, [the G7 has served as an international forum](https://en.wikipedia.org/wiki/G7) for promoting the liberal and democratic ideals championed by its members. To this effect, the organization has collectively made over six thousand commitments to tackle issues such as global development, climate change, health policy and financial regulation. Historically, however, only 62\% of these commitments have been met in full. For the G7 to succeed in its mission, it is critically important that member nations comply with the commitments that they themselves make.
+Data collected by the G7 and G20 Research Groups has made it possible to produce data-driven estimates of the probability that each member nation will meet their summit commitments. I developed this predictive model to enable Sherpas to better allocate resources, making the G7 and G20 more effective.
 
 # Project Overview
 
@@ -38,7 +38,7 @@ During its almost 50-year existence, [the G7 has served as an international foru
 | **Status** | Complete |
 | **Outcome** | Shared results with G20 Sherpas and presented work at the G20 Delhi Summit |
 
-For the first time, data on commitment outcomes collected by the G7 Research Group has made it possible to produce data-driven estimates of the probability that each member nation will fulfill commitments made at G7 summits.
+During its almost 50-year existence, [the G7 has served as an international forum](https://en.wikipedia.org/wiki/G7) for promoting the liberal and democratic ideals championed by its members. To this effect, the organization has collectively made over six thousand commitments to tackle issues such as global development, climate change, health policy and financial regulation. Historically, however, only 62&#37; of these commitments have been met in full. For the G7 to succeed in its mission, it is critically important that member nations comply with the commitments that they themselves make.
 
 # What is the tool?
 
