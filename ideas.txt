@@ -1,0 +1,40 @@
+Website To Do
+
+- Fix RSS
+- Make donation page workable
+- Add contact me button with email
+- Drop down menu items
+
+I have  Jekyll site built based on a template. It has a built pop up menu that shows all the pages of the site. Is it possible to turn these page options into drop down menus that link to pages instead of just displaying all my pages? I have a lot and want to group them so that they can be clickable via a drop down menu.
+
+Posts
+- Alan Turing centre tool testing
+- Consulting work with FCDO (add to CV page and maybe talk about it)
+
+Jekyll site with sections for:
+- Projects
+o Ongoing Projects ✓
+o Completed Projects ✓
+o Publications
+o Data visualiation
+- Learning
+o Languages
+o Literature Review
+o Other
+- Life
+o Reading
+o Art
+o Photography
+o Travel
+o Quotes
+- CV
+o Education
+o Positions
+o Consulting
+o Publications
+o Mentions
+o Skills
+- About
+o Photo
+o Goals
+o Donation page

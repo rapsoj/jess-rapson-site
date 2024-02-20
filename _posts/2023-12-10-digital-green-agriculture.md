@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Rice Crop Yield Predictions in Rural Bihar With XYieldBoost"
+title: "Enhancing Crop Yield Predictions in Rural Bihar With XYieldBoost"
 image: 
   path: /assets/images/projects/digital-green-agriculture/cover.jpeg
   thumbnail: /assets/images/projects/digital-green-agriculture/cover.jpeg
@@ -11,7 +11,6 @@ tags:
   - india
   - crop yield
   - agriculture
-  - rice
 last_modified_at: 2024-02-08
 ---
 
