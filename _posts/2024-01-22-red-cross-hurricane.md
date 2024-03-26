@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2024-01-22
 ---
 
-I am working with the Red Cross to improve their impact-based forecasting (IBF) model for typhoon damage in the Philippines. The goal is to make the model sensitive to errors in decision-making such differences in failing to protect an impacted municipality and spending money to unnecessarily protect an unaffected municipality are considered.
+I am working with the Red Cross to improve their impact-based forecasting (IBF) model for typhoon damage in the Philippines. The goal is to make the model sensitive to errors in decision-making such differences in failing to protect an impacted municipality vs. spending money to unnecessarily protect an unaffected municipality.
 
 # Project Overview
 

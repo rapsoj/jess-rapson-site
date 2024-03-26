@@ -31,9 +31,19 @@ o Quotes
 o Education
 o Positions
 o Consulting
+	* FCDO contract
+o Workshops
+	* Policy and Priorities for SDGs
+o Conferences
+	* Delhi speaker event
+	* London speaker event
 o Publications
 o Mentions
 o Skills
+	* Jurisdictional scan
+	* Cost efficacy analysis
+	* Policy briefings
+	* Theory of change
 - About
 o Photo
 o Goals
