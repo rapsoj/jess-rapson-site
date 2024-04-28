@@ -30,20 +30,26 @@ o Quotes
 - CV
 o Education
 o Positions
+	* Research Lead, Future Impact Group
 o Consulting
 	* FCDO contract
+	* Red Cross
 o Workshops
 	* Policy and Priorities for SDGs
 o Conferences
 	* Delhi speaker event
 	* London speaker event
-o Publications
+o Presentations
+	* Canada High Commission
+o Publications (include non-academic)
 o Mentions
 o Skills
-	* Jurisdictional scan
-	* Cost efficacy analysis
-	* Policy briefings
-	* Theory of change
+	* Technical (as in CV)
+	* Policy
+		@ Jurisdictional scan
+		@ Cost efficacy analysis
+		@ Policy briefings
+		@ Theory of change
 - About
 o Photo
 o Goals
