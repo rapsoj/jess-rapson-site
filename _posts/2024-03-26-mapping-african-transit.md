@@ -1,5 +1,5 @@
 ---
-title: "Mapping Africa Public Transit"
+title: "Mapping Public Transit Systems in African Cities"
 image: 
   path: /assets/images/projects/mapping-african-transit.jpeg
   thumbnail: /assets/images/projects/mapping-african-transit.jpeg
@@ -18,7 +18,7 @@ tags:
 last_modified_at: 2024-04-28
 ---
 
-I am leading a research group to digitalise and analyse public transit routes in major Africa cities for DigitalTransport4Africa. The goal is to provide information to make public transit more accessible to residents and produce analytical insights for urban planners to improve services.
+I am leading a research group to digitalise and analyse public transit routes in major Africa cities for DigitalTransport4Africa. The goal is to provide information to make public transit more accessible to residents and produce analytical insights for urban planners.
 
 # Project Overview
 
