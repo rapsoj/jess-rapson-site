@@ -4,7 +4,7 @@ image:
   path: /assets/images/projects/infc-housing.jpeg
   thumbnail: /assets/images/projects/infc-housing.jpeg
 categories:
-  - Simulation
+  - Prediction
 tags:
   - canada
   - housing
