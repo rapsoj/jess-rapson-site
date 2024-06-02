@@ -1,0 +1,148 @@
+2024 May
+
+Hello! This is my first monthly status update. I'm not very good at writing regularly, so I hope it won't also be my last.
+
+The goal of these posts will be to talk about what I've been up to each month, mostly for my own benefit (it's good to have something to reference to see what I've accomplished, failed to accomplish, or have gotten side-traked from).
+
+I'll try to be as candid and informal as possible. The goal isn't to write a CV or list of accomplishments, but to be critical and thoughful and the things I have learned and done. I can be quite a perfectionist about my writing, which I know slows me down. I'll try to re-read and edit my posts here as little as possible to avoid this trap, so please forgive me if the writing is a little rough. The sections here will be informal and flexible, basically whatever I want to talk about at the time.
+
+
+### What I'm Doing
+
+I've been freelancing for the past few months since graduating from the University of Oxford. Though I technically am still on education leave from the Government of Canada, they have been kind enough to extend my leave insofar as I am working on relevant projects for their mandate.
+
+When I finished my Statistics degree, basically all my cohort went off to work in finance. I want to do something different. I think there is so much potential for statstics/machine learning/AI/whatever you want to call it to be leveraged for public good. Obviously, these jobs don't pay as well compared to areas where there is a clear profit incentive, especially for neglected cause areas and those in regions with less resources.
+
+My whole life so far has been working full time or going to school full time (except the one time where I did both school and work full time during the pandemic...). I've held a part-time or full-time job consistently since I was 13 (tutoring math at Kumon). Because of this, I've always felt I haven't had the time to persue the projects I truly want to do. I have a growing list of ideas that only been growing longer. 
+
+So I wanted to take a year off and cross some things off that list. For now, I have enough savings that money isn't an issue. I'm able to work with non-profits and governments in developing countries (or in neglected cause areas) pro bono. If I'm able to secure grant funding, sponsorship, or make sufficient income from working with organisations that are able to pay, I'll consider doing this for longer. For now, this is mainly an experiment to see if I can do something good with my skills. 
+
+
+### Overall Goals
+
+As might be obvious from the above paragraph, my high-level goal is to have the largest possible positive impact with my life. I think I'm willing to make fairly large sacrifices to my income in order to be able to do that. On a given year, I typically donate at least 10% of my income to high-impact non-profits (something [everyone should consider doing!](https://www.givingwhatwecan.org/pledge?gad_source=1&gclid=CjwKCAjwjeuyBhBuEiwAJ3vuoWKZn3GqnsqBRA5RoO60BV7yORYOfnXUD0-A4t5aSklkaq7sUVZ7_hoCiEcQAvD_BwE)).
+
+On a more specific level, I'm interested in what I call "[algorithmic governance](https://en.wikipedia.org/wiki/Government_by_algorithm)". That is, the usage of computer algorithms applied to policy decisions. With the current buzz around AI (both the hype and actual advancements), governments will increasingly defer to algorithmic processes to automate and improve decision-making. If done correctly, this has the potential to make everyone better off through more responsive, evidence-based, and unbiased policies and programming. If done incorrectly, the opposite may come to pass.
+
+Right now, we're at the early stages of this process. It is absolutely essential that action is taken at this time to ensure that uses of algorithms that affect human (or non-human) lives is open source, well designed, and put in the hands of organisations that can use it to do the most good. I want to help in this endeavor, to the best of my ability.
+
+In this regard, I have been working the past few months with as many non-profits and governments that will take me in order to implement high quality algorithmic solutions to important problems. If this type of work goes well, I will attempt to found an organisation to scale my impact. For now, this is my main goal. Hopefully I'll talk more about it later in future posts. I have a tendency to side quest pretty hard while neglecting my overall goal. We'll see if this post can hold me accountable.
+
+
+### Project Work
+
+May has been a pretty busy month. I wrapped up four six-week long student projects I was running for the [Future Impact Group](https://futureimpact.group/), where I have been working part-time as a lead researcher. I'll write more about these in the projects section of the website, but basically all the projects revolved around producing high-qualtity "missing" datasets (i.e. datasets that could potentially be very useful for policy, but currently do not exist). All of these were quite involved to produce, and required students with specific expertise in tax policy, climate science, public health, programming, and large language models. Read more details on my projects page!
+
+I was supervising 14 students for these projects, with some from Oxford and some based internationally. My leadership skills were truly tested, and I think I did okay. Leadership seems to be a skill like any other: you improve the more you do it. I've started to get way better at running meetings (especially remote meetings, which can be very annoying to run since you can't properly gauge what attendees are thinking). For example, dedicating specific time for roundtable discussions where every students presents their work and raises challenges they've encountered for the group to discuss. For projects I've led in the past, I've just used meeting time for assigning tasks. Active discussion and problem-solving seems way better. Also making [Gantt charts](https://en.wikipedia.org/wiki/Gantt_chart) before the project kick-off is a lifesaver.
+
+Overall, I think I still have a lot of leadership skills I need to learn. I get very anxious if I think students are not enjoying their work or if there is a chance that the work they do will not have an impact. I worry sometimes that I'm too defensive if ideas or plans are questioned. I don't want to have an adversarial relationship where I feel like my mistakes or weaknesses are going to immediately make me lose all respect and credibility with my team. (This is problably a bit of imposter syndrome, to be honest.) For the moment, I'm glad my work leading teams is over and I can focus on technical work I can do solo, without so much personal accountability. 
+
+On that note, I've had a few solo projects this month. I'm continuing flood forecasting work with the [Foreign, Commonwealth and Development Office](https://www.gov.uk/government/organisations/foreign-commonwealth-development-office) (FCDO). A few months ago, I wrote a report for them on the use of AI in flood forecasting, which seemed to be really well received. I was asked to do some follow-up work on some of my recommendations, specifically building a web-scraper to automate detection of typhoons, improving the Flood Early Warning system. (This has nothing to do with AI, but I identified it as a low-hanging fruit for the FCDO in my report.) So two days of focused programming later, I finished [StormSpyder](https://github.com/rapsoj/StormSpyder/tree/main), a web-scraping algorithm that goes through the ECMWF tropical storm genesis forecasts and emails key scientists at the FCDO when there is a high expected number of people impacted by a tropical storm. 
+
+stormspyder.png
+
+"Spider" is a name commonly given to web crawlers.
+
+Feels pretty good to see a project through start to finish in such a short amount of time!
+
+I've also been working on a [neural network-based housing price simulator](https://jess-rapson.com/prediction/2024/01/10/infc-housing.html) for Infrastructure Canada. This month I finished scraping the bulk of the necessary housing market data from CMHC's really non-download friendly and Javascript-heavy [Housing Market Information Portal](https://www03.cmhc-schl.gc.ca/hmip-pimh/en#Profile/1/1/Canada). I also finished coding the multi-headed transformer mechanism underlying the simulator, which was fun. (My first time implementing a transformer!) This month, I presented everything that's been done so far to the Data and Analytics Directorate of Infrastructure Canada.
+
+housingnet.png
+
+My untested hypothesis is that there is a positive correlation between giving a model a cute name and its probability of being used.
+
+Finally, I've been working with the Bihar branch of [Digital Green](https://digitalgreen.org/) to do some follow-up work for a machine learning-based [precision agriculture model](https://jess-rapson.com/prediction/2023/12/10/digital-green-agriculture.html) my team developed in December. Basically, we our model detected a pretty strong relationship between root-based (as opposed to broadcasting) organic fertiliser application and higher crop yields. I did some quasi-experimental analysis (propensity score matching) to confirm this relationship had a causal basis using 2022 data supplied by Digital Green. Now, my team is actively working with Digital Green and the [Bihar Rural Livelihoods Promotion Society](https://brlps.in/) to verify this relationship on 2023 data. Once that's done, I'm hoping to get a publication out of it and hopefully enable these organisations to give recommendations to subsistence farmers that can increase their crop yields!
+
+To end the month, I got to attend the ITU AI for Good Global Conference, hosted by the UN in Geneva. 
+
+itu1.MOV
+
+Of course Boston Dynamics was there.
+
+itu2.MOV
+
+The more flashy side of the conference. I'm pretty sure this doesn't have any relationship to achieving SDGs, but it looks cool. (Credit to [The Robot Studio](https://www.therobotstudio.com/))
+
+A pretty neat experience, once you wade through the more flashy and buzz-wordy ground floor (and like, hundreds of pictures of the thinking robot head thing that seems to have become the stock image for "AI"). Geoffrey Hinton spoke, as did Sam Altman. I definitely preferred sitting in on the tehnical workshops on the top floor though. The opportunity to ask questions to and get ideas from some of the top scientists in the world leading efforts to implement AI for good was definitely worth the trip! (I even managed to impress a few scientists with the questions I asked.)
+
+itu3.png
+
+I really hope in future years they focus more on impact and less on flashy shows.
+
+itu4.png
+
+Plenty of microphones but no opportunities for asking questions or discussion on the ground floor.
+
+
+### Graduating from Oxford
+
+I did a thing! I'm not really one for pomp and circumstance, which is basically what the University of Oxford graduation ceremony is. That's pretty much what you can expect from a 700+ year old tradition. 
+
+grad1.png
+
+I've removed the watermark and upscaled the potato-quality sample photo using AI, so if it looks weird that's why.
+
+grad2.png
+
+*Do fidem.*
+
+
+### Aging
+
+I've aged again. Not much else to say here, except that time seems to run faster the more years you've been alive. It feels like years 22-26 just slipped past. I know going back to read this post when I'm actually old (like over 30, ugh) I'll shake my head at my younger self for feeling old at 27. But right now, I just feel disturbed that time can slip by so fast.
+
+birthday1.png
+
+Old 27-year-old me.
+
+birthday2.png
+
+More smooth but still one year older.
+
+
+### Reading
+
+I'm stealing this section from [jablevine.com](https://jablevine.com/now/). He reads a ton and has inspired me to read more! (Though I'll probably never quite be on his level.) This month I've been continuing to read *Africa's Development in Historical Perspective*; basically a collection of essays by economists, sociologists, and other social scientists trying to explain specific aspects of African developmental challenges, with an eye to the historical context underlying said challenges. I'm about two thirds of the way done (working my way through one section every day). So far I'm a huge fan on the analysis of the impact of malaria on African development by David N. Weil. Basically he argues that malaria was way less important to limiting development historially than it is today, using a variety of interesting demographic, epidemiological, and econometric techniques. 
+
+
+### Learning
+
+One of my goals this year is to read a statistics paper or technical article in full, understanding all the relevant math, every week. It's been quite a fun challenge and has brought me up to speed in a ton of areas that I don't touch in my day-to-day work. This month I read (among other things) about the use of signal processing in machine learing. Essentially, Fourier transforms can be applied to time series data to engineer new features for input to machine learning models. Jumping back into the math on Fourier analysis was a real treat. I quite enjoyed being exposed to the physics side of these applications, since my main exposure to Fourier analysis from mathematics is purely theoretical.
+
+I'm also learning Mandarin! As an old person, spaced repetition is pretty much where it's at for language learning. So to help me out, I've developed a web-based flashcard application that links to a private Google Sheet where I can store all the words/phrases I'm learning, along with notes on how they are used. I'm using this alongside Duolingo (for sentence structure) and ChineseClass101.com (for listening), along with some limited practice with native speakers. So far, I've learned 673 words/phrases completely. My goal is to learn 1,000 total, then switch to maintence pratice. I'd like to learn 1,000 words in the top 10 world languages. My original goal was to do this before the age of 30, but time went by pretty fast and now that deadline might have to move. I'm still going to see it through!
+
+
+### Life
+
+I kicked off the month with the uniquely-Oxford May Day celebrations: staying up all night and heading over to heard the Magdalen Choir sing from the top of the tower at 6AM. I missed this last year since I was back in Canada, and was glad I got to experience it. Very weird experience staying up all night with an entire town!
+
+may-day.MOV
+
+You can't see the choir but I'm sure they're up there somewhere.
+
+Spring is here and quite beautiful in Oxford and especially the Botanic Gardens. 
+
+jade-vine.png
+
+The jade vine, quite possibly the most unique flower I have ever seen.
+
+old-fashioned-weigela.png
+
+Old fashioned weigela, also pretty neat.
+
+I also got to see the northern lights, as did a large portion of the UK. 
+
+aurora1.png
+
+aurora2.png
+
+aurora3.png
+
+
+### Last Words
+
+Writing down all of that has made me feel slightly more accomplished for the month! I think it's important to look back on what you've done to motivate yourself to keep going in the future. I think sometimes I fall into the trap of exclusively looking at the mountain of work that needs to be climbed in the future, neglecting the mountains of work that I've already summited. Looking back helps a bit in this regard. 
+
+Of course, I don't want to confuse doing a lot of things with having an impact. Tracking that separately remains important. 
+
+I will (hopefully) be back next month with new updates!
