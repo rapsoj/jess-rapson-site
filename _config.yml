@@ -66,6 +66,8 @@ paginate_path: /page:num/
 
 # Collections
 collections:
+  updates:
+    output: true
   recipes:
     output: true
     permalink: /:collection/:path/
