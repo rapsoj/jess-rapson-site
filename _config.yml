@@ -68,6 +68,7 @@ paginate_path: /page:num/
 collections:
   updates:
     output: true
+    permalink: /updates/:path/
   recipes:
     output: true
     permalink: /:collection/:path/
@@ -87,4 +88,11 @@ defaults:
       type: recipes
     values:
       layout: post
+      read_time: false
+  # _updates
+  - scope:
+      path: "_updates"
+      type: updates
+    values:
+      layout: update
       read_time: false
