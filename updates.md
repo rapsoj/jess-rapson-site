@@ -1,6 +1,6 @@
 ---
 title: Updates
-layout: posts
+layout: updates
 permalink: /updates/
 entries_layout: list
 ---
