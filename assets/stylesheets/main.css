@@ -328,7 +328,7 @@ tr, td, th { vertical-align: middle; }
 .taxonomy-index { display: grid; grid-column-gap: 2em; grid-template-columns: repeat(2, 1fr); margin: 0; padding: 0; font-family: "Fira Sans", sans-serif; font-size: 0.9em; list-style: none; }
 @media (min-width: 64em) { .taxonomy-index { grid-template-columns: repeat(3, 1fr); } }
 .taxonomy-index a { display: -webkit-box; display: -ms-flexbox; display: flex; padding: 0.25em 0; -webkit-box-pack: justify; -ms-flex-pack: justify; justify-content: space-between; color: inherit; text-decoration: none; border-bottom: 1px solid #d7d8da; }
-.taxonomy-index a:hover { color: #00838a; }
+.taxonomy-index a:hover { color: #ffa500; }
 .taxonomy-index + .taxonomy-section { margin-top: 3em; }
 
 /* ========================================================================== Sidebar ========================================================================== */
@@ -339,7 +339,7 @@ tr, td, th { vertical-align: middle; }
 .sidebar li.is--moved { -webkit-transform: translateX(0); -ms-transform: translateX(0); transform: translateX(0); opacity: 1; }
 .sidebar li a { position: relative; color: #393e46; }
 .sidebar li a::before { display: block; position: absolute; top: 50%; left: -3rem; width: 0; height: 1px; -webkit-transition: width 0.3s cubic-bezier(0, 0, 0.3, 1); transition: width 0.3s cubic-bezier(0, 0, 0.3, 1); background-color: #393e46; content: ""; }
-.sidebar li a:hover { color: #00838a; }
+.sidebar li a:hover { color: #ffa500; }
 .sidebar li a:hover::before { width: 2.5rem; }
 .sidebar > .inner { width: 100%; height: 100%; padding: 1.5em; background-color: #fff; overflow-x: hidden; -webkit-box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125); box-shadow: inset -1em 0 5em 0 rgba(0, 0, 0, 0.125); }
 @media (min-width: 48em) { .sidebar > .inner { padding: 3rem; } }
@@ -448,7 +448,7 @@ tr, td, th { vertical-align: middle; }
 
 /* Entry list ========================================================================== */
 .entries-list .entry-title { word-wrap: break-word; /* break long words that could overflow */ }
-.entries-list .entry-title a:hover { color: #00838a; }
+.entries-list .entry-title a:hover { color: #ffa500; }
 .entries-list .entry-excerpt { /* normalize font sizes */ /* remove space after last child element */ }
 @media (min-width: 48em) { .entries-list .entry-excerpt { width: 68.3544303797%; } }
 .entries-list .entry-excerpt > * { font-size: 1em; }
