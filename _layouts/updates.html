@@ -6,6 +6,7 @@ layout: page
 
 <ul class="taxonomy-index">
   {% assign updatesInYear = site.updates | group_by_exp: 'update', 'update.date | date: "%Y"' %}
+  {% assign updatesInYear = updatesInYear | sort: 'name' | reverse %}
   {% for year in updatesInYear %}
     <li>
       <a href="#{{ year.name }}">
@@ -16,11 +17,13 @@ layout: page
 </ul>
 
 {% assign updatesByYear = site.updates | group_by_exp: 'update', 'update.date | date: "%Y"' %}
+{% assign updatesByYear = updatesByYear | sort: 'name' | reverse %}
 {% for year in updatesByYear %}
   <section id="{{ year.name }}" class="taxonomy-section">
     <h2 class="taxonomy-title">{{ year.name }}</h2>
     <div class="entries-{{ page.entries_layout | default: 'list' }}">
-      {% for update in year.items %}
+      {% assign sorted_updates = year.items | sort: 'date' | reverse %}
+      {% for update in sorted_updates %}
         {% include entry.html update=update %}
       {% endfor %}
     </div>
