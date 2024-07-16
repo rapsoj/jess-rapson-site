@@ -14,6 +14,7 @@ tags:
   - dt4a
   - gis
   - kampala
+  - digitisation
   
 last_modified_at: 2024-06-08
 ---
