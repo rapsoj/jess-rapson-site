@@ -63,7 +63,3 @@ The body of the emails contains the image taken from the ECMWF website with the 
 ![no-alignment]({{ '/assets/images/projects/automating-typhoon-detection/example-image.png' | absolute_url }})
 
 ![no-alignment]({{ '/assets/images/projects/automating-typhoon-detection/example-report.png' | absolute_url }})
-
-# Running the Tool
-
-Users can **message the algorithm creator (email below) to be added to the daily alert mailing list**. If tool customisation or ownership is desired, users can also adapt the code to run on their a cloud computing service (recommended) or their own device. To set up StormSpyder on your own instance of AWS, follow the instructions in [this tutorial](https://medium.com/@angelaniederberger/automated-web-scraping-with-aws-72b7f80c2927#9fa2). StormSpyder can be run on the AWS t3.small instance (2 GB RAM). It takes approximately 25 minutes to finish executing.
