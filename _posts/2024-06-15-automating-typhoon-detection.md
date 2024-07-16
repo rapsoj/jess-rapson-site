@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Automating Typhoon Detection with StormSpyder"
 image: 
   path: /assets/images/projects/automating-typhoon-detection/cover.jpeg
   thumbnail: /assets/images/projects/automating-typhoon-detection/cover.jpeg
