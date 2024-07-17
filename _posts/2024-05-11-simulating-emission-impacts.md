@@ -1,5 +1,5 @@
 ---
-title: "Simulating Climate Goal Conditions"
+title: "Simulating Climate Policy Impact by Creating a Database of Emission Mitigation Research"
 image: 
   path: /assets/images/projects/simulating-emission-impacts.jpeg
   thumbnail: /assets/images/projects/simulating-emission-impacts.jpeg

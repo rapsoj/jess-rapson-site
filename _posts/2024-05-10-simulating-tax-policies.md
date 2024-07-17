@@ -1,5 +1,5 @@
 ---
-title: "Simulating UBI Policy Impacts"
+title: "Simulating UBI Policy Impacts by Digitising Tax Policies"
 image: 
   path: /assets/images/projects/simulating-tax-policies.jpeg
   thumbnail: /assets/images/projects/simulating-tax-policies.jpeg
