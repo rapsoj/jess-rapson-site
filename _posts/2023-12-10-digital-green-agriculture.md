@@ -1,5 +1,5 @@
 ---
-title: "Enhancing Crop Yield Predictions in Rural Bihar With XYieldBoost"
+title: "Enhancing Crop Yield Predictions in Rural Bihar with XYieldBoost"
 image: 
   path: /assets/images/projects/digital-green-agriculture/cover.jpeg
   thumbnail: /assets/images/projects/digital-green-agriculture/cover.jpeg
