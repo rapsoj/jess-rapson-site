@@ -16,7 +16,7 @@
 lang: en-UK
 title: Jess Rapson
 email: jessicakristenr@gmail.com
-#description: "A place to store my projects and publications"
+description: "Algorthmic Governance"
 baseurl: ""  # the subpath of your site, e.g. /blog
 url: ""  # the base hostname & protocol for your site, e.g. http://example.com
 author:
