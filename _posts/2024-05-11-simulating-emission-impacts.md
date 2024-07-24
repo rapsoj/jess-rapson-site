@@ -1,5 +1,5 @@
 ---
-title: "Simulating Climate Policy Impacts by Building a Database of Emission Research"
+title: "Simulating Climate Policy Impacts by Building a Database of Emissions Research"
 image: 
   path: /assets/images/projects/simulating-emission-impacts.jpeg
   thumbnail: /assets/images/projects/simulating-emission-impacts.jpeg
