@@ -31,7 +31,6 @@ algolia:
   application_id: P5TNA3WUD2 #QB6HVGBSBA
   index_name: basically-basic
   search_only_api_key: cc563fbba80a9e99fd4ffb40fdc78d1a #9d5014e5bbc77372547bce778dfa5663
-  admin_api_key: 562d9dd832ac9b4de946318aee1bd184
   powered_by: true # true (default), false
 
 # Liquid
