@@ -15,6 +15,7 @@ The spatial model task is particularly challenging since unlike the temporal mod
 *According to the TAMSAT data, this year has the highest cumulative rainfall anomaly of any year on record.*
 
 ![no-alignment]({{ '/assets/images/updates/2024-september/model-metrics.png' | absolute_url }})
+
 *The current model is doing a good job of beating the baselines, but since the baselines are quite bad to begin with, it is challenging to to determine how useful this model would be.*
 
 # Small Break
