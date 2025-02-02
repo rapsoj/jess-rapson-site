@@ -19,7 +19,7 @@ tags:
 last_modified_at: 2025-02-02
 ---
 
-Intro
+I built a two-stage neural network to automatically predict inundation extent in the White Nile basin in South Sudanby regularly downloading satellite data from open sources.
 
 # Project Overview
 
