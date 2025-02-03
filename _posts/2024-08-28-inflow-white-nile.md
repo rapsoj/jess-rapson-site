@@ -27,7 +27,7 @@ I built a two-stage neural network to automatically predict extreme out-of-sampl
 | **Model** | A two-stage neural network producing temporal and spatial predictions of inundation in South Sudan |
 | **Client** | University of Reading |
 | **Status** | Complete |
-| **Outcome** | Produced live predictions of flooding during the 2024 flood season, presented work to UNHCR, deployed model on TAMSAT |
+| **Outcome** | Produced live predictions of flooding during the 2024 flood season, presented work to UNHCR, deployed model to be put on JASMIN |
 
 ![no-alignment]({{ '/assets/images/updates/2024-july/nile-flooding.png' | absolute_url }})
 
