@@ -1,16 +1,22 @@
 {%- case include.ratio -%}
   {%- when '21:9' -%}
-    {%- assign ratio_class = 'responsive-embed-21by9' -%}
+    {%- assign padding = '42.85%' -%}
   {%- when '16:9' -%}
-    {%- assign ratio_class = 'responsive-embed-16by9' -%}
+    {%- assign padding = '56.25%' -%}
   {%- when '4:3' -%}
-    {%- assign ratio_class = 'responsive-embed-4by3' -%}
+    {%- assign padding = '75%' -%}
   {%- when '1:1' -%}
-    {%- assign ratio_class = 'responsive-embed-1by1' -%}
+    {%- assign padding = '100%' -%}
   {%- else -%}
-    {%- assign ratio_class = 'responsive-embed-16by9' -%}
+    {%- assign padding = '56.25%' -%}
 {%- endcase -%}
 
-<div class="embed-container" style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto;">
-  <iframe src="{{ include.url }}" frameborder="0" allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe>
+<div class="embed-container" style="position: relative; padding-bottom: {{ padding }}; height: 0; overflow: hidden; max-width: 100%;">
+  <iframe 
+    src="{{ include.url }}" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
 </div>
