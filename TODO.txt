@@ -1,3 +1,18 @@
+TODO
+- Create mentions section
+- Create writings section
+- Create musings section
+- Write post for new projects 
+ 	o Predicting wildfire risk
+ 	o Predicting global conflict
+ 	o Tracking conflict displacement
+ 	o Automating vulnerability assessments for disasters
+ 	o Tracking ASEAN vaccine approval policies
+ 	o Benchmarking LLM-Assisted Biosecurity Forecasts
+- Update projects where relevant
+	o Link to transit Github, add images
+	o Link to Rules as Code paper
+
 Website To Do
 
 - Fix RSS
