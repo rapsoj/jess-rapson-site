@@ -1,7 +1,6 @@
 TODO
-- Create mentions section
-- Create writings section
-- Create musings section
+- Create mentions section (for published works and shouts)
+- Create collections (for/or art, movies, books, travel)
 - Write post for new projects 
  	o Predicting wildfire risk
  	o Predicting global conflict
@@ -10,7 +9,7 @@ TODO
  	o Tracking ASEAN vaccine approval policies
  	o Benchmarking LLM-Assisted Biosecurity Forecasts
 - Update projects where relevant
-	o Link to transit Github, add images
+	o Link to transit Github, add images, HTML
 	o Link to Rules as Code paper
 
 Website To Do
@@ -19,6 +18,7 @@ Website To Do
 - Make donation page workable
 - Add contact me button with email
 - Drop down menu items
+- Create musings/writings section
 
 I have  Jekyll site built based on a template. It has a built pop up menu that shows all the pages of the site. Is it possible to turn these page options into drop down menus that link to pages instead of just displaying all my pages? I have a lot and want to group them so that they can be clickable via a drop down menu.
 
