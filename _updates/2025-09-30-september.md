@@ -51,11 +51,13 @@ I've completely finished the electronic vulnerabilities and capabilities assessm
 We've also made incredibly good progress on our displacement/tent detection model for the Gaza Strip. After doing a bit of a literature review, it was immediately clear that feeding the model an image of the same area from the pre-war period makes it much easier for the U-net to learn which parts of the current image are tents. This makes intuitive sense, and you can see in the below image how these areas pop up as clear red blobs when they are differenced.
 
 ![no-alignment]({{ '/assets/images/updates/2025-september/gaza-prewar.png' | absolute_url }})
+
 *Since the tents don't exist in the pre-war image, it's easier for the model to distinguish them from similar looking white buildings and structures.*
 
 Though it is unlikely to influence the current state of affairs in the Gaza Strip, this work is incredibly important for helping to document atrocities and war crimes committed, as well as getting an accurate estimate of the human impact of the war. Though our work is fundamentally technical (making it sometimes difficult to connect with actual human suffering), we are easily reminded of the scale of destruction while going through the satellite data. Near the end of last month, there was an entire displacement camp that was targeted by Israeli bombing (see the photo below). With data from our model, atrocities such as these can be documented and quantified, hopefully providing a legal path to prevent or discourage such acts in the future.
 
 ![no-alignment]({{ '/assets/images/updates/2025-september/gaza.jpg' | absolute_url }})
+
 *The entire neighbourhood was completely destroyed on August 25th, forcing the displaced populations to flee yet again.*
 
 Wrapping these up has not given me any more free time. The budding success of the AGF projects ran this summer have already spilled into substantive follow-up presentations and additional project requests. Several groups have reached out to learn more about the ACLED CAST model improvements we have achieved, including Global Affairs Canada, the Canadian Department of Defence, and the Red Cross Climate Centre. The UK's Medicines and Healthcare products Regulatory Agency (MHRA) is also in the process of contracting with us to build on our LLM/web-scraping policy tracker. And I've started a technical paper on reducing bias in predictive policing algorithms for the London Metropolitan Police Service (in response to a [government posting](https://www.gov.uk/government/news/ai-to-help-police-catch-criminals-before-they-strike) on an upcoming AI-based crime map). 
