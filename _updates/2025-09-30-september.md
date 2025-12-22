@@ -3,7 +3,7 @@ title: "2025 September"
 last_modified_at: 2025-10-05
 ---
 
-*Perfectionism will kill your progress. If you're afraid to start because you think you'll fail that's the sign you have to do it right there right now.*
+*"Perfectionism will kill your progress. If you're afraid to start because you think you'll fail that's the sign you have to do it right there right now."*
 
 <style>
   .responsive-video {
