@@ -1,8 +1,8 @@
 ---
 title: "Promoting Rules as Code"
 image: 
-  path: /assets/images/projects/tracking-conflict-displacement.jpeg
-  thumbnail: /assets/images/projects/tracking-conflict-displacement.jpeg
+  path: /assets/images/projects/promoting-rules-as-code.png
+  thumbnail: /assets/images/projects/promoting-rules-as-code.png
 categories: 
   - Prediction
 tags:

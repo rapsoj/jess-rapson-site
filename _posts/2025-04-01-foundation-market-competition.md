@@ -1,8 +1,8 @@
 ---
 title: "Increasing Competition in the Foundation Model Market"
 image: 
-  path: /assets/images/projects/foundation-market-competition.jpeg
-  thumbnail: /assets/images/projects/foundation-market-competition.jpeg
+  path: /assets/images/projects/foundation-market-competition.png
+  thumbnail: /assets/images/projects/foundation-market-competition.png
 categories: 
   - Writing
 tags:
