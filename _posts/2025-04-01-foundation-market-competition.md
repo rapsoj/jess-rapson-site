@@ -10,7 +10,6 @@ tags:
   - t7
   - think7
   - cigi
-  0 
   
 last_modified_at: 2026-03-21
 ---
