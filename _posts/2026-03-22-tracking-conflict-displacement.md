@@ -201,9 +201,9 @@ I guess this shows how far you can you by having an idea and sending an email.
 The project will continue on under his research group, now with funding for maintenance and improvements. One of those improvements is getting better estimates of those dense tent clusters, which was done by setting lower thresholds for what we considered to be a tent in areas where the model was predicting lots of tents.
 
 ![no-alignment]({{ '/assets/images/projects/tracking-conflict-displacement/clustering1.png' | absolute_url }})
-\br*For live population tracking used for aid distribution, accurately identifying these clusters is critical.*
+*For live population tracking used for aid distribution, accurately identifying these clusters is critical.*
 
 ![no-alignment]({{ '/assets/images/projects/tracking-conflict-displacement/clustering2.png' | absolute_url }})
-\br*New thresholding methods substantially improve population counts in the dense refugee camps.*
+*New thresholding methods substantially improve population counts in the dense refugee camps.*
 
 The model is open source on [GitHub](https://github.com/algorithmicgovernance/TentNetFA).
