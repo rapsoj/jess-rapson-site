@@ -95,7 +95,7 @@ A machine learning model that can do this detection autmatically would make quan
 
 From a model-building perspective, the missing data presents an entirely different challenge: the training data is extremely poor quality. There are sprawling refugee camps with complex networks of tents that entirely lack annotations. All this results in a very confused model that is told it is wrong when it correctly makes predictions in these inaccuarately labelled areas, since that is the only ground truth data we have to work with. A confused model then becomes less confident at making predictions in areas where it should be very confident. If we just gave a model this data, it would likely miss huge tent clusters, preferring to conservatively guess that no tents are present since it is often punished when it (correctly) detects tents.
 
-At first, my collaborator, Karim Alaa El-Din](https://www.aedin.dev/about/), and I tried to get around this problem by writing data selection logic that only used annotated areas where we were *pretty sure* there was reasonably good quality in the annotations. 
+At first, my collaborator, [Karim](https://www.aedin.dev/about/), and I tried to get around this problem by writing data selection logic that only used annotated areas where we were *pretty sure* there was reasonably good quality in the annotations. 
 
 To make training the model on the massive satellite images possible, we first broke down the annotated images into tiles, producing a manageble segmented set of images for model to learn from. We then tried to only include tiles in the training set that (1) had some degree of annotation on them (so just weren't entirely missed by the human annotaters) or (2) were somewhat close to some area that was manually annotated.
 
