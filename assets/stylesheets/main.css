@@ -364,6 +364,29 @@ tr, td, th { vertical-align: middle; }
 
 .sidebar-toggle-label { margin-left: 0.5rem; font-weight: bold; color: #181c22; }
 
+.art-gallery .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.art-gallery .gallery-item {
+  margin: 0;
+}
+
+.art-gallery .gallery-item img {
+  display: block;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+}
+
+.art-gallery .gallery-item figcaption {
+  margin-top: 0.4rem;
+  font-size: 0.85rem;
+}
+
 /* ========================================================================== Navigation ========================================================================== */
 .menu { padding-left: 0; list-style: none; }
 .menu a { color: inherit; text-decoration: none; }
