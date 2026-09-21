@@ -1,8 +1,11 @@
 ---
 title: "Building a Neural Network to Address Canada's Housing Crisis"
 image: 
-  path: /assets/images/projects/infc-housing.jpeg
-  thumbnail: /assets/images/projects/infc-housing.jpeg
+  path: /assets/images/projects/infc-housing.jpg
+  thumbnail: /assets/images/projects/infc-housing.jpg
+  credit:
+    name: Katrina S. Fedukowski
+    url: https://www.artstation.com/artwork/xJgkqE
 categories:
   - Prediction
 tags:

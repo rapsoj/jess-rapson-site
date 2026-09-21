@@ -1,8 +1,11 @@
 ---
 title: "Mapping Public Transit Systems in African Cities"
 image: 
-  path: /assets/images/projects/mapping-african-transit.jpeg
-  thumbnail: /assets/images/projects/mapping-african-transit.jpeg
+  path: /assets/images/projects/mapping-african-transit.jpg
+  thumbnail: /assets/images/projects/mapping-african-transit.jpg
+  credit:
+    name: N Saxton Doodle Art
+    url: https://www.artstation.com/artwork/JeogYv
 categories:
   - Data
 tags:

@@ -1,8 +1,11 @@
 ---
 title: "Automating Typhoon Detection with StormSpyder"
 image: 
-  path: /assets/images/projects/automating-typhoon-detection/cover.jpeg
-  thumbnail: /assets/images/projects/automating-typhoon-detection/cover.jpeg
+  path: /assets/images/projects/automating-typhoon-detection.jpg
+  thumbnail: /assets/images/projects/automating-typhoon-detection.jpg
+  credit:
+    name: Shoonyah
+    url: https://www.artstation.com/artwork/lDqAxe
 categories:
   - Automation
 tags:

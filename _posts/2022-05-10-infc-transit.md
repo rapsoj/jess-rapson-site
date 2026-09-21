@@ -1,8 +1,11 @@
 ---
 title: "Forecasting the Post-Pandemic Transit Recovery to Inform Relief Funding"
 image: 
-  path: /assets/images/projects/infc-transit/cover.jpeg
-  thumbnail: /assets/images/projects/infc-transit/cover.jpeg
+  path: /assets/images/projects/infc-transit.jpg
+  thumbnail: /assets/images/projects/infc-transit.jpg
+  credit:
+    name: Katrina S. Fedukowski
+    url: https://www.artstation.com/artwork/JlXPND
 categories:
   - Prediction
 tags:

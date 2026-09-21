@@ -1,8 +1,11 @@
 ---
 title: "Increasing the Efficacy of the G7 and G20 Using Predictive AI"
 image: 
-  path: /assets/images/projects/g7-g20-commitments/cover.jpeg
-  thumbnail: /assets/images/projects/g7-g20-commitments/cover.jpeg
+  path: /assets/images/projects/g7-g20-commitments.jpg
+  thumbnail: /assets/images/projects/g7-g20-commitments.jpg
+  credit:
+    name: Katrina S. Fedukowski
+    url: https://www.artstation.com/artwork/r93ox5
 categories:
   - Prediction
 tags:

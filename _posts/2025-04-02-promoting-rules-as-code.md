@@ -1,8 +1,11 @@
 ---
 title: "Promoting Rules as Code"
 image: 
-  path: /assets/images/projects/promoting-rules-as-code.png
-  thumbnail: /assets/images/projects/promoting-rules-as-code.png
+  path: /assets/images/projects/promoting-rules-as-code.jpg
+  thumbnail: /assets/images/projects/promoting-rules-as-code.jpg
+  credit:
+    name: Katrina S. Fedukowski
+    url: https://www.artstation.com/artwork/d8wzg3
 categories: 
   - Policy
 tags:

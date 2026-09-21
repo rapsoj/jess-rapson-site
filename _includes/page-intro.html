@@ -3,6 +3,9 @@
     {% assign intro_image = page.image.path | default: page.image | relative_url | escape %}
     <div class="intro-image">
       <img src="{{ intro_image }}" alt="{{ page.title }}">
+      {% if page.image.credit %}
+        <p class="image-credit">Artwork by <a href="{{ page.image.credit.url }}">{{ page.image.credit.name }}</a></p>
+      {% endif %}
     </div>
   {% endif %}
 

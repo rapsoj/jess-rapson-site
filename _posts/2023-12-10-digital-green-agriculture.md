@@ -1,8 +1,11 @@
 ---
 title: "Enhancing Crop Yield Predictions in Rural Bihar with XYieldBoost"
 image: 
-  path: /assets/images/projects/digital-green-agriculture/cover.jpeg
-  thumbnail: /assets/images/projects/digital-green-agriculture/cover.jpeg
+  path: /assets/images/projects/digital-green-agriculture.jpg
+  thumbnail: /assets/images/projects/digital-green-agriculture.jpg
+  credit:
+    name: Shoonyah
+    url: https://www.artstation.com/artwork/9EdEoL
 categories:
   - Prediction
 tags:

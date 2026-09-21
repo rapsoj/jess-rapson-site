@@ -1,8 +1,11 @@
 ---
 title: "Improving Flood Prediction Along the White Nile with Neural Networks"
 image: 
-  path: /assets/images/projects/inflow-white-nile.jpeg
-  thumbnail: /assets/images/projects/inflow-white-nile.jpeg
+  path: /assets/images/projects/inflow-white-nile.jpg
+  thumbnail: /assets/images/projects/inflow-white-nile.jpg
+  credit:
+    name: Blake Butler
+    url: https://www.artstation.com/artwork/1nBPA2
 categories: 
   - Prediction
 tags:
@@ -29,16 +32,16 @@ I built a two-stage neural network to automatically predict extreme out-of-sampl
 | **Status** | Complete |
 | **Outcome** | Produced live predictions of flooding during the 2024 flood season, presented work to UNHCR, deployed model to be put on JASMIN |
 
-![no-alignment]({{ '/assets/images/updates/2024-july/nile-flooding.png' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2024/july/nile-flooding.png' | absolute_url }})
 
 *Currently, the Sudd basin is flooded much more than normal in a way that no model was able to predict. The challenge was to build a model that can predict these kinds of extreme events without any equivalent samples in the training data.*
 
 The primary challenge of the data is that the issue being modelled (extreme flooding events) may not have occurred yet. While the Sudd basin has been inundated beyond normal levels for several years, the current flood situation is unprecedented and was not predicted by any existing models. So the question at hand is: if a similarly unprecedented situation were to occur several years from now, could the model predict it?
 
-![no-alignment]({{ '/assets/images/updates/2024-july/percent-inundated.png' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2024/july/percent-inundated.png' | absolute_url }})
 *The prediction challenge is that while some areas of the basin are always inundated, there are a very small portion of crucial areas (mainly refugee camps and other human settlements) that are flooded, but only very rarely.*
 
-![no-alignment]({{ '/assets/images/updates/2024-july/rare-inundation.png' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2024/july/rare-inundation.png' | absolute_url }})
 *A model that can predict when these areas will be inundated would be instrumental in allocating aid. In addition, aid agencies are interested in knowing when/why the current high levels of flooding will dissipate.*
 
 The project involved testing a large number of potential solutions and further develop the best performing method. These include:

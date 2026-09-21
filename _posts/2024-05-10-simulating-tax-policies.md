@@ -1,8 +1,11 @@
 ---
 title: "Simulating UBI Policy Impacts by Digitising Tax Policies"
 image: 
-  path: /assets/images/projects/simulating-tax-policies.jpeg
-  thumbnail: /assets/images/projects/simulating-tax-policies.jpeg
+  path: /assets/images/projects/simulating-tax-policies.jpg
+  thumbnail: /assets/images/projects/simulating-tax-policies.jpg
+  credit:
+    name: Shoonyah
+    url: https://www.artstation.com/artwork/qellg2
 categories:
   - Data
 tags:
