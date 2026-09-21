@@ -544,6 +544,8 @@ tr, td, th { vertical-align: middle; }
 .intro-image { position: relative; margin-top: -3rem; /* compensate for intro top margin */ margin-bottom: 3rem; }
 .intro-image::before { position: absolute; top: 0; right: 0; bottom: 0; left: 0; content: ''; }
 .intro-image img { width: 100%; }
+.image-credit { display: block; width: 100%; margin: 0; padding: 0.3rem 0.75rem 0; color: #666; font-size: 0.7rem; line-height: 1.3; text-align: right; }
+.image-credit a { color: inherit; }
 
 .intro-text { /* remove space after last child element */ }
 .intro-text > *:last-child { margin-bottom: 0; }
@@ -766,6 +768,28 @@ figure.align-center figcaption { text-align: center; }
 .visually-hidden { position: absolute !important; clip: rect(1px, 1px, 1px, 1px); height: 1px !important; width: 1px !important; border: 0 !important; overflow: hidden; }
 
 body:hover .visually-hidden a, body:hover .visually-hidden input, body:hover .visually-hidden button { display: none !important; }
+
+/* ========================================================================== Site colour overrides ========================================================================== */
+/* Kept in the source stylesheet so these rules persist across Jekyll builds. */
+.btn,
+.pager a { background-color: #ffa500; color: #fff; }
+
+.btn:hover,
+.pager a:hover { background-color: #cc8400; color: #fff; }
+
+.btn:focus,
+.pager a:focus { background-color: #b27300; color: #fff; }
+
+a:hover,
+.layout--cv .entry a:hover,
+.site-title a:hover,
+.sidebar .contact-list a:hover,
+.image-credit a:hover { color: #ffa500; }
+
+.btn:hover,
+.btn:focus,
+.pager a:hover,
+.pager a:focus { color: #fff; }
 
 /* Print */
 /* ========================================================================== PRINT STYLES ========================================================================== */

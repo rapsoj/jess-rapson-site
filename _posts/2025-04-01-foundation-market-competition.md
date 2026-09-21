@@ -1,8 +1,11 @@
 ---
 title: "Increasing Competition in the Foundation Model Market"
 image: 
-  path: /assets/images/projects/foundation-market-competition.png
-  thumbnail: /assets/images/projects/foundation-market-competition.png
+  path: /assets/images/projects/foundation-market-competition.jpg
+  thumbnail: /assets/images/projects/foundation-market-competition.jpg
+  credit:
+    name: Shoonyah
+    url: https://www.artstation.com/artwork/rJ1xze
 categories: 
   - Policy
 tags:

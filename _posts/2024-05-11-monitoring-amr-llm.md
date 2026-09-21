@@ -1,8 +1,11 @@
 ---
 title: "Monitoring Antimicrobial Resistance Using Large Language Models"
 image: 
-  path: /assets/images/projects/monitoring-amr-llm.jpeg
-  thumbnail: /assets/images/projects/monitoring-amr-llm.jpeg
+  path: /assets/images/projects/monitoring-amr-llm.jpg
+  thumbnail: /assets/images/projects/monitoring-amr-llm.jpg
+  credit:
+    name: IGNATIOU
+    url: https://www.artstation.com/artwork/XgQxry
 categories:
   - Data
 tags:

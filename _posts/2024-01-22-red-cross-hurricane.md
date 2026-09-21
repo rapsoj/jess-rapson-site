@@ -1,8 +1,11 @@
 ---
 title: "Predicting Typhoon Damage to Improve Disaster Response in the Philippines"
 image: 
-  path: /assets/images/projects/red-cross-hurricane.jpeg
-  thumbnail: /assets/images/projects/red-cross-hurricane.jpeg
+  path: /assets/images/projects/red-cross-hurricane.jpg
+  thumbnail: /assets/images/projects/red-cross-hurricane.jpg
+  credit:
+    name: Xebelion
+    url: https://www.artstation.com/artwork/04335w
 categories:
   - Prediction
 tags:

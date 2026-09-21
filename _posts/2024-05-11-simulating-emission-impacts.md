@@ -1,8 +1,11 @@
 ---
 title: "Simulating Climate Policy Impacts by Building a Database of Emissions Research"
 image: 
-  path: /assets/images/projects/simulating-emission-impacts.jpeg
-  thumbnail: /assets/images/projects/simulating-emission-impacts.jpeg
+  path: /assets/images/projects/simulating-emission-impacts.jpg
+  thumbnail: /assets/images/projects/simulating-emission-impacts.jpg
+  credit:
+    name: FractalsByX
+    url: https://www.artstation.com/artwork/Dvk3aO
 categories:
   - Data
 tags:

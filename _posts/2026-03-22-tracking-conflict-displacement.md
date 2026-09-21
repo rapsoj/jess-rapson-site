@@ -1,8 +1,11 @@
 ---
 title: "Tracking Conflict Displacement with CNNs"
 image: 
-  path: /assets/images/projects/tracking-conflict-displacement.jpeg
-  thumbnail: /assets/images/projects/tracking-conflict-displacement.jpeg
+  path: /assets/images/projects/tracking-conflict-displacement.jpg
+  thumbnail: /assets/images/projects/tracking-conflict-displacement.jpg
+  credit:
+    name: Olja Davidov Hougham
+    url: https://www.artstation.com/artwork/gJzlDL
 categories: 
   - Prediction
 tags:
@@ -86,7 +89,7 @@ As mentioned, this process is incredibly labour intensive, especially when appli
 
 As a result, Forensic Architecture's set of annotations is missing quite a bit of data and cannot be considered complete. Without a fully annotated map, the full scale of displacement cannot be quantified with a reasonable degree of confidence.
 
-![no-alignment]({{ '/assets/images/updates/2025-june/tents.png' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2025/june/tents.png' | absolute_url }})
 *Example of missing data from the Forensic Architecture annotations. The tents are in white. Clearly the annotater for this region did not label every tent in the region they were looking at (understandable, since this is very time intensive).*
 
 A machine learning model that can do this detection autmatically would make quantifying the full scale of displacement possible, so that's what we set out to do.
@@ -110,7 +113,7 @@ The data quality set us back quite a bit, and ultimately we had to go back to th
 
 This process took over a month and 40 volunteers, but the result was a much better (and actually usable) dataset.
 
-![no-alignment]({{ '/assets/images/updates/2025-11-november/mapping.png' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2025/november/mapping.png' | absolute_url }})
 *Volunteers hard at work doing annotations for this project.*
 
 With this new data on hand, we were able to build a proper model (which we called TentNetFA). Specifically, we ended up going with a relatively simple CNN. This not necessarily the best approach, since more computationally complex models like U-Nets (which are a specialised kind of CNN that uses an encoder-decoder structure and skip connections to preserve spatial detail), are much better at object detection-type tasks. However, the downside is they are much slower to train and much more computationally expensive. On a budget for both time and compute, basic CNNs (i.e. with no encoder-decoder or skip connections) were the winner.
@@ -134,7 +137,7 @@ Using this as input data, our final model is essentially a fully convolutional n
 
 All together, the predictions from this model at the tile level are not bad, often beating the training data labels in accuracy.
 
-![no-alignment]({{ '/assets/images/updates/2025-july/tents-unet.jpeg' | absolute_url }})
+![no-alignment]({{ '/assets/images/updates/2025/july/tents-unet.jpeg' | absolute_url }})
 *Example results from the model predictions. The first image is the raw data, the second is the labels, and the third is the model predictions – clearly much better than the labels.*
 
 As you can see in the image, the predictions are not single points like we want, but rather blurred circles and oblong shapes. There are also a bunch of tiny specs in the bottom of the image which are just noise. To filter these out, we use a [Gaussian filter](https://en.wikipedia.org/wiki/Gaussian_filter) that essentially gets rid of the small and/or weakly predicted components.
