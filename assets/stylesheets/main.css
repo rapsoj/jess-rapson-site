@@ -350,6 +350,12 @@ tr, td, th { vertical-align: middle; }
 .sidebar .menu a { display: block; }
 .sidebar .menu::after { position: absolute; bottom: 0; width: 1.5em; height: 1px; background-color: #393e46; content: ""; }
 .sidebar .menu li { margin-bottom: 1.5rem; }
+.sidebar .menu-label { display: block; color: #393e46; }
+.sidebar .sub-menu { margin: 0.85rem 0 0 0.15em; padding-left: 0.65em; border-left: 2px solid #ffa500; font-size: 0.55em; line-height: 1.2; list-style: none; }
+.sidebar .sub-menu li { margin-bottom: 0.7rem; }
+.sidebar .sub-menu li:last-child { margin-bottom: 0; }
+.sidebar .sub-menu a::before { left: -1.3rem; }
+.sidebar .sub-menu a:hover::before { width: 0.8rem; }
 .sidebar .contact-list { margin-top: 0.5rem; padding-top: 0.5rem; }
 .sidebar .contact-list { font-size: 18px; }
 @media screen and (min-width: 320px) { .sidebar .contact-list { font-size: calc(18px + 6 * ((100vw - 320px) / 960)); } }
@@ -366,7 +372,9 @@ tr, td, th { vertical-align: middle; }
 
 .art-gallery .gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-auto-rows: 8px;
+  grid-auto-flow: dense;
   gap: 1rem;
   margin-top: 1.5rem;
 }
@@ -378,13 +386,19 @@ tr, td, th { vertical-align: middle; }
 .art-gallery .gallery-item img {
   display: block;
   width: 100%;
-  aspect-ratio: 1 / 1;
-  object-fit: cover;
+  height: auto;
+  border-radius: 0.2rem;
 }
 
 .art-gallery .gallery-item figcaption {
   margin-top: 0.4rem;
   font-size: 0.85rem;
+}
+
+@media (min-width: 40em) {
+  .art-gallery .gallery-item.is-wide {
+    grid-column: span 2;
+  }
 }
 
 /* ========================================================================== Navigation ========================================================================== */
@@ -546,6 +560,12 @@ tr, td, th { vertical-align: middle; }
 .intro-image img { width: 100%; }
 .image-credit { display: block; width: 100%; margin: 0; padding: 0.3rem 0.75rem 0; color: #666; font-size: 0.7rem; line-height: 1.3; text-align: right; }
 .image-credit a { color: inherit; }
+
+.reading-table { margin-top: 1rem; }
+.reading-table tbody tr:nth-child(even) { background-color: #f7f7f7; }
+.reading-table tbody tr:hover { background-color: #fff4e0; }
+.reading-table th:last-child,
+.reading-table td:last-child { width: 10rem; white-space: nowrap; text-align: right; }
 
 .intro-text { /* remove space after last child element */ }
 .intro-text > *:last-child { margin-bottom: 0; }

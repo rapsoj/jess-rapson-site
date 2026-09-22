@@ -11,9 +11,26 @@
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.data.theme.navigation_pages | default: default_paths %}
 
-    {% for path in page_paths %}
-      {% assign my_page = site.pages | where: "path", path | first %}
-      {% if my_page.title %}
+    {% for item in page_paths %}
+      {% assign nav_path = item.path | default: item %}
+      {% assign my_page = site.pages | where: "path", nav_path | first %}
+      {% if item.children %}
+        <li class="menu-item menu-item--parent">
+          <span class="menu-label">{{ item.title | escape }}</span>
+          <ul class="sub-menu" aria-label="{{ item.title | escape }} submenu">
+            {% for child in item.children %}
+              {% assign child_page = site.pages | where: "path", child.path | first %}
+              {% if child_page.title %}
+                <li class="menu-item">
+                  <a href="{{ child_page.url | relative_url }}" itemprop="url">
+                    <span itemprop="name">{{ child_page.title | escape }}</span>
+                  </a>
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </li>
+      {% elsif my_page.title %}
         <li class="menu-item">
           <a href="{{ my_page.url | relative_url }}" itemprop="url">
             <span itemprop="name">{{ my_page.title | escape }}</span>
