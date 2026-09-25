@@ -18,7 +18,7 @@ title: Jess Rapson
 email: jessicakristenr@gmail.com
 description: "Algorithmic Governance"
 baseurl: ""  # the subpath of your site, e.g. /blog
-url: ""  # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jess-rapson.com"
 author:
   name: Jess Rapson
   picture: /assets/images/headshot.png
