@@ -7,6 +7,8 @@ sub_title: Books and other works I've read.
 
 | Book | Date finished |
 |:-----|--------------:|
+| The Ruba'iyat of Omar Khayyam (1898) | Oct 12, 2026 |
+| Deco for Divers: A Diver's Guide to Decompression Theory and Physiology (2008) | Oct 4, 2026 |
 | Old Water (1911) | Aug 31, 2026 |
 | The Rocking-Chair (1893) | Aug 31, 2026 |
 | The Yellow Wall-Paper (1892) | Aug 31, 2026 |
