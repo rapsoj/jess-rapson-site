@@ -26,6 +26,7 @@ sub_title: Measuring where I've gone in cities.
 | Bruges | Belgium | Europe |
 | Brussels | Belgium | Europe |
 | Budapest | Hungary | Europe |
+| Bukhara | Tashkent | Asia |
 | Burano | Italy | Europe |
 | Burford | United Kingdom | Europe |
 | Calgary | Canada | North America |
@@ -97,6 +98,7 @@ sub_title: Measuring where I've gone in cities.
 | Niagara-on-the-Lake | Canada | North America |
 | Nice | France | Europe |
 | Nobel | Canada | North America |
+| Nurota | Tashkent | Asia |
 | Orillia | Canada | North America |
 | Orlando | United States | North America |
 | Ottawa | Canada | North America |
@@ -117,6 +119,7 @@ sub_title: Measuring where I've gone in cities.
 | Rothenburg ob der Tauber | Germany | Europe |
 | Rugby | United Kingdom | Europe |
 | Salamanca | Spain | Europe |
+| Samarkand | Tashkent | Asia |
 | San Francisco | United States | North America |
 | Santa Cruz de Tenerife | Spain | Africa |
 | Santo Domingo | Dominican Republic | North America |
@@ -132,6 +135,7 @@ sub_title: Measuring where I've gone in cities.
 | Sudbury | Canada | North America |
 | Swanage | United Kingdom | Europe |
 | Szentendre | Hungary | Europe |
+| Tashkent | Tashkent | Asia |
 | Tholen | Netherlands | Europe |
 | Tierra Linda | Guatemala | North America |
 | Tiny | Canada | North America |
