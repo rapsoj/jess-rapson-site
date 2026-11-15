@@ -7,6 +7,10 @@ sub_title: Books and other works I've read.
 
 | Book | Date finished |
 |:-----|--------------:|
+| House of Leaves (2000) | Nov 12, 2026 |
+| The Epic of Gilgamesh (1200 BCE) | Oct 30, 2026 |
+| The Umbrella (1952) | Oct 19, 2026 |
+| Hills like White Elephants (1927) | Oct 18, 2026 |
 | The Ruba'iyat of Omar Khayyam (1898) | Oct 12, 2026 |
 | Deco for Divers: A Diver's Guide to Decompression Theory and Physiology (2008) | Oct 4, 2026 |
 | Old Water (1911) | Aug 31, 2026 |
